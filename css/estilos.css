@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 
   *, *:before, *:after {
@@ -104,4 +105,112 @@ small{
      color: rgb(252, 243, 243);
      text-align: center;
    margin-top: 3rem;
+=======
+
+
+  *, *:before, *:after {
+    box-sizing: border-box;
+  }
+
+/*body*/
+.principal{
+    background-image: url("../img/fondo1-min.jpg") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed; /* fijar la imagen*/
+  }
+
+
+/*header*/
+
+.navegador{
+  height: 4rem;
+}
+
+
+
+.nav-item{
+list-style: none;
+
+}
+
+
+.sobremi{
+  margin-top: 4rem;
+
+}
+
+
+/*tecnologias*/
+.tecnologias{
+  justify-content: center;
+  align-items: center;
+  height: 6rem;
+  width: 100rem;
+}
+
+ /*texto*/
+
+ h1{
+   color:ghostwhite;
+   font-family: 'Maitree', serif;
+   text-align: center;
+   text-transform: uppercase;
+ }
+ h2{
+  color:ghostwhite;
+  font-family: 'Maitree', serif;
+  text-align: center;
+  font-size: 3rem ;
+  padding-bottom: 2rem;
+  text-transform: uppercase;
+ }
+
+h5{
+  font-family: 'Maitree', serif;
+  text-align: center;
+  font-size: 2rem ;
+  text-transform: uppercase;
+}
+
+p{
+  font-family: 'Maitree', serif;
+  text-align: center;
+  font-size: 4rem ;
+  text-transform: uppercase;
+  padding-top: 0.5rem;
+}
+small{
+  font-family: 'Maitree', serif;
+  text-align: center;
+  font-size: 2rem ;
+  text-transform: uppercase;
+}
+
+/*iconos-tecnologias*/
+.iconos{
+  padding-bottom: 2rem;
+  text-align:  center;
+  font-size: 3rem ;
+}
+
+ /*main- proyectos*/
+.proyecto{
+  margin-top: 4rem;
+}
+
+
+
+
+
+
+
+
+/*footer- contacto*/
+   .footer{
+     font-size: 2rem;
+     color: rgb(252, 243, 243);
+     text-align: center;
+   margin-top: 3rem;
+>>>>>>> 1f46c2feb4eaea02abe9dadc3fc5da54a3d404dc
 }
